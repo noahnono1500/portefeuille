@@ -15,4 +15,4 @@ Ce projet est un portfolio dynamique codé en PHP/MySQL avec une gestion admin e
 1. Cloner le dépôt :
 
 ```bash
-git clone https://github.com/votre-utilisateur/portfolio.git
+git clone [**https://github.com/votre-utilisateur/portfolio.git**](https://github.com/noahnono1500/portefeuille)
