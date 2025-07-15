@@ -1,11 +1,11 @@
 -- Création de la base et de l'utilisateur
-DROP DATABASE IF EXISTS projetb2;
-CREATE DATABASE projetb2 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE projetb2;
+DROP DATABASE IF EXISTS portfolio;
+CREATE DATABASE portfolio CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE portfolio;
 
 -- Création de l'utilisateur MySQL (à exécuter si droits suffisants)
-CREATE USER IF NOT EXISTS 'projetb2'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON projetb2.* TO 'projetb2'@'localhost';
+CREATE USER IF NOT EXISTS 'portfolio'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON portfolio.* TO 'portfolio'@'localhost';
 FLUSH PRIVILEGES;
 
 -- Table users
